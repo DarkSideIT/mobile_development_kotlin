@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/numA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Введите число A"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/numB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/numA"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:hint="Введите число B"/>
+
+    <Button
+        android:id="@+id/btnSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numB"
+        android:layout_marginTop="16dp"
+        android:text="Сложить"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSum"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
