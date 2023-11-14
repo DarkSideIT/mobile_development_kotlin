@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="RandomFilms">
+        <item name="film1">Bleach</item>
+        <item name="film2">One Piece</item>
+        <item name="film3">Naruto</item>
+        <item name="film4">Hunter x Hunter</item>
+        <item name="film5">Tokyo Ghoul</item>
+        <item name="film6">Attack On Titan</item>
+        <item name="film7">Hell Paradise</item>
+        <item name="film8">Cyberpunk: Edgerunners</item>
+        <item name="film9">School Days</item>
+        <item name="film10">Lycoris Recoil</item>
+    </string-array>
+</resources>
