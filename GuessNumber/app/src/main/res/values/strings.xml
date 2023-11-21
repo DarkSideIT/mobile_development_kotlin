@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="rangeBegin">От</string>
+    <string name="rangeEnd">До</string>
+    <string name="startButton">Начать</string>
+    <string name="title_activity_game">Game</string>
+</resources>
